@@ -1,0 +1,19 @@
+.logo{
+    width: 100%;
+    align-items: center;
+    height: 100px
+}
+.pics{
+    width: 70%;
+    height: 150px;
+    margin-bottom: 20%;
+}
+.home{
+    width: 10%;
+    height: 40px;
+}
+.fruit{
+    width: 70%;
+    position: relative;
+
+}

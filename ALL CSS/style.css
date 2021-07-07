@@ -1,0 +1,142 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.hold-all{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color:whitesmoke;
+}
+.first-row{
+    width: 15%;
+    height:auto;
+    background-color: white;
+}
+.second-row{
+    width: 42.5%;
+    height: auto;
+}
+.third-row{
+    width: 42.5%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+    align-items: center;
+    justify-content: center;
+}
+.menu nav{
+    margin-right: 40px;
+    margin-bottom: 50%;
+}
+.menu ul{
+    list-style-type: none;
+    display: block;
+}
+.menu nav ul li{
+    margin: 40px;
+}
+.menu nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.menu nav ul li a.active{
+    border-bottom: 1px solid black;
+}
+/******SECOND ROW STYLE*****/
+.app{
+    width: 100%;
+    height: 70px;
+}
+.app nav ul{
+    list-style-type: none;
+}
+.app nav ul li{
+    display: inline-flex;
+    padding-top: 40px;
+    margin-right: 30px;
+}
+.app nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.app nav ul li a.active{
+    border-bottom: 1px solid black;
+}
+.card{
+    width: 100%;
+    height: 550px;
+    display: grid;
+    margin-top: 6%;
+    grid-template-columns: repeat(2, 1fr);
+}
+.cards{
+    background-color: white;
+    width: 80%;
+    height: 250px;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 9%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/****third row***/
+.rice{
+    width: 100%;
+    height: 300px;
+    margin-top: 15%;
+    background-image: url(../images/healthiest-vegetables-df1cf550711076d052eaade12c38289a2637c38e546182d3c0136a90cb0bb0b3-768x512.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content h3{
+    padding: 15px;
+    font-weight: lighter
+}
+.content p{
+    padding: 15px;
+    font-size: 15px;
+    margin-top: -5%;
+    color: gray;
+}
+.a{
+    display: flex;
+    float: right;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    padding-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact{
+    padding: 7px;
+    outline: 1px solid black;
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
